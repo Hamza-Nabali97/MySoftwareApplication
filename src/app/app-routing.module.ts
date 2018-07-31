@@ -5,6 +5,10 @@ import { LoginPageComponent } from './login-page/login-page.component';
 
 const routes: Routes = [
   {
+      path:'',
+      redirectTo: 'root'
+  },  
+  {
     path: 'root',
     component: MainPageComponent
   },
