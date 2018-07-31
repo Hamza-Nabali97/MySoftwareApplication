@@ -3,13 +3,9 @@ import { Routes, RouterModule } from '@angular/router';
 import { MainPageComponent } from './main-page/main-page.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 
-const routes: Routes = [
+const routes: Routes = [  
   {
-      path:'',
-      redirectTo: 'root'
-  },  
-  {
-    path: 'root',
+    path: '',
     component: MainPageComponent
   },
   {

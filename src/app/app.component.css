@@ -1,0 +1,22 @@
+header {
+    background-color: darkgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    height: 25%;
+}
+
+footer {
+    height: 15%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    font-size: 28px;
+    font-family: Verdana;
+    font-weight: bolder;
+    text-align: center;
+}

@@ -12,8 +12,8 @@ export class MainPageComponent implements OnInit {
 
   ngOnInit() {
   }
-  
-  goToLoginPage(){
+
+  navigateToLoginPage() {
     this.router.navigateByUrl('/login');
   }
 
